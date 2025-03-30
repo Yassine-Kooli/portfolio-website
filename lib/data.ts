@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import { FaCameraRetro } from "react-icons/fa";
 
 export const links = [
   {
@@ -35,28 +36,48 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graphic Designer & Photographer Intern",
+    location: "Comguru Agency, Sousse, Tunisia",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "As a final-year Graphic Design student, I am gaining hands-on experience at Comguru Agency. My role includes designing graphics for digital media and capturing photography for branding and marketing. This internship allows me to refine my skills and collaborate on real-world projects.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Feb 2025 - Present",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Photographer, Filmmaker, Graphic Designer",
+    location: "Association Apollon pour la Culture et les Arts, Ksar Hellal, Tunisia",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "• Participated in cinematographic training and the shooting of the movie 'Another Route' as part of the 'Obrez' project funded by the British Council of Tunisia.\n" +
+      "• Volunteered as a Photographer in the Street Theatre Day in Ksar Hellal.\n" +
+      "• Volunteered as a Photographer and Videographer in multiple editions of the Street Arts Festival.",
+    icon: React.createElement(FaCameraRetro),
+    date: "Feb 2019 - Present",
+  },
+  {
+    title: "Freelance Photographer",
+    location: "Tunisia",
+    description:
+      "Freelance photographer with experience spanning from pre-secondary school to the present, focusing on:\n" +
+      "• Portrait photography.\n" +
+      "• Automotive photography.\n" +
+      "• Product photography.\n" +
+      "• Event photography.\n" +
+      "• Artistic projects.",
+    icon: React.createElement(FaCameraRetro),
+    date: "2015 - Present",
+  },
+  {
+    title: "Photographer, Filmmaker",
+    location: "MetaBuzz Agency, Ksar Hellal, Tunisia",
+    description:
+      "Worked with the following clients through MetaBuzz Agency:\n" +
+      "• Kbayer Meuble: Photographer and Filmmaker.\n" +
+      "• SZ Metal: Filmmaker.\n" +
+      "• Carthage Medical Center: Photographer and Filmmaker.\n" +
+      "• Hssin Plast: Photographer.\n" +
+      "• Challenge Gym and Fitness: Photographer and Videographer.",
+    icon: React.createElement(FaCameraRetro),
+    date: "May 2023 - Sep 2023",
   },
 ] as const;
 
@@ -85,23 +106,23 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Photography",
+  "Automotive Photography",
+  "Portrait Photography",
+  "Event Photography",
+  "Product Photography",
+  "Color Grading",
+  "Photo Editing",
+  "Adobe Photoshop",
+  "Adobe Lightroom",
+  "Graphic Design",
+  "Logo Design",
+  "Branding",
+  "Poster Design",
+  "Videography",
+  "Filmmaking",
+  "Adobe Premiere Pro",
+  "DaVinci Resolve",
+  "Storytelling",
 ] as const;
+

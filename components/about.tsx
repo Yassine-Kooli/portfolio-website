@@ -17,33 +17,30 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">photography and graphic design</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I am a passionate <span className="font-medium">Automotive & Portrait Photographer</span>,
+        <span className="font-medium"> Graphic Designer</span>, and <span className="font-medium">Color Grading Expert</span>
+        with <span className="font-medium">10 years</span> of experience.
+        My work blends technical precision with artistic storytelling, capturing everything from
+        <span className="italic"> dynamic rolling shots</span> to <span className="italic"> expressive portraits</span>.
+        With a strong background in <span className="font-medium">color grading</span>, I ensure every image has a
+        unique and polished look that stands out.
+      </p>
+
+      <p className="mb-3">
+        Beyond photography, I am also a <span className="font-medium">graphic designer</span>,
+        specializing in posters, logos, and branding solutions that bring ideas to life.
+        My experience includes working with agencies such as <span className="font-medium">Comguru Agency</span>
+        and <span className="font-medium">MetaBuzz</span>, where I collaborated with brands on high-impact visual campaigns.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">When I'm not behind the camera</span>, I enjoy exploring new creative techniques,
+        learning about film production, and working on personal artistic projects.
+        I am always looking for new opportunities to grow, collaborate, and push the boundaries of visual storytelling.
       </p>
+
     </motion.section>
   );
 }
